@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <database.software>h2</database.software>
+        <database.software>h2</database.software><!-- mysql, postgresql, oracle, db2, sqlserver, sqlite... -->
         <database.driver>org.h2.Driver</database.driver>
         <database.url>jdbc:h2:${project.build.directory}/sampledb</database.url>
         <database.schema></database.schema>
