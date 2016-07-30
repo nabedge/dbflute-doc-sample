@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <database.sofrware>h2</database.sofrware>
+        <database.software>h2</database.software>
         <database.driver>org.h2.Driver</database.driver>
         <database.url>jdbc:h2:${project.build.directory}/sampledb</database.url>
         <database.schema></database.schema>
@@ -118,7 +118,7 @@
                     <replacements>
                         <replacement>
                             <token>@database@</token>
-                            <value>${database.sofrware}</value>
+                            <value>${database.software}</value>
                         </replacement>
                         <replacement>
                             <token>@targetLanguage@</token>
